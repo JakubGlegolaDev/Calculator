@@ -1,19 +1,20 @@
 
 public class Action {
 
-	public float Add(int x, int y) {
+	public float Add(float x, float y) {
 		return x+y;
 	}
 	
-	public float Sub(int x, int y) {
+	public float Sub(float x, float y) {
 		return x-y;
+		
 	}
 		
-	public float Div(int x, int y) {
+	public float Div(float x, float y) {
 		return x/y;
 	}
 		
-	public float Multi(int x, int y) {
+	public float Multi(float x, float y) {
 		return x*y;
 	}
 	
